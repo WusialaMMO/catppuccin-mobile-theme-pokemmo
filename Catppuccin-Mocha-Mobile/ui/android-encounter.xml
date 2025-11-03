@@ -1,12 +1,12 @@
 <themes>
-  <theme name="encounter-counter" ref="resizableframe">
-    <param name="titleAreaTop"><int>8</int></param>
-    <param name="titleAreaLeft"><int>11</int></param>
-    <param name="titleAreaRight"><int>-1</int></param>
-    <param name="titleAreaBottom"><int>20</int></param>
-    <param name="border"><border>20,0,0,0</border></param>
-    <param name="background"><image>frame-draggable-alpha.background</image></param>
-    <param name="minWidth"><int>200</int></param>
+  <theme name="encounter-counter" ref="resizableframe" overwrite="true">
+    <param name="titleAreaTop"><int>0</int></param>
+    <param name="titleAreaLeft"><int>0</int></param>
+    <param name="titleAreaRight"><int>0</int></param>
+    <param name="titleAreaBottom"><int>0</int></param>
+    <param name="border"><border>0,0,0,0</border></param>
+    <param name="background"><image>frame-alpha.background</image></param>
+    <param name="minWidth"><int>70</int></param>
     <theme name="content" ref="-defaults">
       <theme name="label" ref="label">
         <param name="minWidth"><int>50</int></param>
@@ -28,6 +28,9 @@
       </theme>
     </theme>
   </theme>
+  
+  <theme name="encounter-counter-expanded" ref="encounter-counter" overwrite="true"/>
+  
   <theme name="encounter-counter-frame" ref="mobile-panel" overwrite="true">
     <param name="border"><border>55,0,0,0</border></param>
     <param name="minWidth"><int>450</int></param>
@@ -151,26 +154,26 @@
     <param name="background"><image>monster-caught.background</image></param>
     <param name="border"><border>0,0,0,0</border></param>
     <theme name="title" ref="label" allowWildcard="true">
-      <param name="font"><font>med-noshadow-22-gray</font></param>
+      <param name="font"><font>med-noshadow-22-gray-shiny</font></param>
     </theme>
     <theme name="content" ref="-defaults">
       <param name="border"><border>0,0,0,0</border></param>
       <theme name="button" ref="label">
-        <param name="font"><font>battle-small</font></param>
+        <param name="font"><font>battle-shiny</font></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
         <param name="minWidth"><int>120</int></param>
         <param name="minHeight"><int>60</int></param>
       </theme>
       <theme name="cell-large" ref="label">
-        <param name="font"><font>battle-small</font></param>
+        <param name="font"><font>battle-shiny</font></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       </theme>
       <theme name="cell" ref="label">
-        <param name="font"><font>battle-small</font></param>
+        <param name="font"><font>battle-shiny</font></param>
         <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
       </theme>
       <theme name="cell-markup" ref="cell">
-        <param name="font"><font>battle-small</font></param>
+        <param name="font"><font>battle-shiny</font></param>
       </theme>
       <theme name="button-reset" ref="button"/>
       <theme name="button-share" ref="button">

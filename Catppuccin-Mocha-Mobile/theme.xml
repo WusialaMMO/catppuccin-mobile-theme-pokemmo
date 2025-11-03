@@ -14,6 +14,7 @@
 
 	<include filename="../default/cursors.xml"/>
 	<include filename="../default/gfx.xml"/>
+
 	<include filename="../default/gfx_ui.xml"/>
 	<include filename="gfx.xml"/>
 	<include filename="../default/init.xml"/>
@@ -65,7 +66,10 @@
 	<include filename="ui/android-trade.xml"/>
 	<include filename="ui/android-link.xml"/>
     <include filename="ui/android-instance.xml"/>
+	<include filename="ui/android-encounter.xml"/>
+  	<include filename="ui/android-incubator.xml"/>
 
 	<include filename="notif.xml"/>
 	<include filename="notif_a.xml"/>
+	<include filename="../default/drops.xml"/>
 	</themes>
