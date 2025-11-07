@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Theme Catppuccin Mocha Mobile" version="5.0" description="A Soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/186539-mobile-%F0%9F%93%B1-catppuccin-mocha-mobile/">
+<resource name="Theme Catppuccin Mocha Mobile" version="5.1" description="A Soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/186539-mobile-%F0%9F%93%B1-catppuccin-mocha-mobile/">
     <themes>
 <!--        <theme path="Catppuccin-Mocha-Mobile" name="Catppuccin Mocha Mobile" revision="2" is_mobile="true"/>-->
         <theme path="Bg-Clouds" name="Catppuccin Mocha Mobile Clouds" revision="5" is_mobile="true" sprite_atlas="custom-atlas/main.atlas"/>
