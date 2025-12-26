@@ -20,7 +20,7 @@
   </theme>
   
   <theme name="battle-frame" ref="-defaults" allowWildcard="true">
-    <param name="background"><image>label1.background</image></param>
+    <param name="background"><image>label-transparent.background</image></param>
     <theme name="label" ref="-defaults" allowWildcard="true">
       <param name="font"><font>mechabold-large</font></param>
       <param name="border"><border>0,0,7,0</border></param>
