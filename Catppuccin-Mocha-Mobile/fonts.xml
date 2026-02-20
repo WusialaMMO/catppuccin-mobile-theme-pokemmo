@@ -9,7 +9,7 @@
 	<fontDef name="braille" ref="battle" color="#000000"/>
 
   <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f" markup="true"/>
-  <fontDef name="mechabold-large-orig" ref="mechabold-large" color="#FFFFFF" />
+  <fontDef name="mechabold-large-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#FFFFFF" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f" markup="true"/>
   <fontDef name="mechabold-large-red" ref="mechabold" color="#F09999" />
   <fontDef name="mechabold-large-green" ref="mechabold" color="#a6e3a1" />
   <fontDef name="mechabold-large-blue" ref="mechabold" color="#89b4fa" />
@@ -26,6 +26,7 @@
     <fontParam if="disabled" color="#CCC"/>
   </fontDef>
 
+  <fontDef name="med-noshadow-12-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="12"/>
   <fontDef name="med-noshadow-14-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="14"/>
   <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="16"/>
   <fontDef name="med-noshadow-16-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#cdd6f4" size="16"/>
@@ -35,6 +36,7 @@
   <fontDef name="med-noshadow-20-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true"
            faces="sc,tc,jp" font_color="#cdd6f4" size="20"/>
   <fontDef name="med-noshadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="22"/>
+  <fontDef name="med-noshadow-22-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="22"/>
 
   <fontDef name="med-shadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16"/>
   <fontDef name="med-shadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true"/>

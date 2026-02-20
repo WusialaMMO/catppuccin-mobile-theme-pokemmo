@@ -1,22 +1,30 @@
 <themes>
+  <!-- Load custom enc counter -->
+  <images file="../res/custom-enc-counter.png" filter="nearest">
+    <area name="mobile-custom-enc-counter" xywh="*"/>
+  </images>
+  <images file="../res/custom-enc-counter-expanded.png" filter="nearest">
+    <area name="mobile-custom-enc-counter-expanded" xywh="*"/>
+  </images>
+
   <theme name="encounter-counter" ref="resizableframe" overwrite="true">
     <param name="titleAreaTop"><int>0</int></param>
     <param name="titleAreaLeft"><int>0</int></param>
     <param name="titleAreaRight"><int>0</int></param>
     <param name="titleAreaBottom"><int>0</int></param>
     <param name="border"><border>0,0,0,0</border></param>
-    <param name="background"><image>frame-alpha.background</image></param>
+    <param name="background"><image>mobile-custom-enc-counter</image></param>
     <param name="minWidth"><int>70</int></param>
     <theme name="content" ref="-defaults">
       <theme name="label" ref="label">
         <param name="minWidth"><int>50</int></param>
-        <param name="font"><font>med-noshadow-22-white</font></param>
+        <param name="font"><font>med-noshadow-22-white-orig</font></param>
         <param name="border"><border>7,7</border></param>
         <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
       </theme>
       <theme name="label-left" ref="label">
         <param name="textAlignment"><enum type="alignment">LEFT</enum></param>
-        <param name="font"><font>med-noshadow-22-white</font></param>
+        <param name="font"><font>med-noshadow-22-white-orig</font></param>
       </theme>
       <theme name="icon" ref="label">
         <param name="border"><border>7,7</border></param>
@@ -29,7 +37,9 @@
     </theme>
   </theme>
   
-  <theme name="encounter-counter-expanded" ref="encounter-counter" overwrite="true"/>
+  <theme name="encounter-counter-expanded" ref="encounter-counter" overwrite="true">
+    <param name="background"><image>mobile-custom-enc-counter-expanded</image></param>
+  </theme>
   
   <theme name="encounter-counter-frame" ref="mobile-panel" overwrite="true">
     <param name="border"><border>55,0,0,0</border></param>

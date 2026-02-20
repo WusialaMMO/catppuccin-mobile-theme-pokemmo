@@ -130,7 +130,7 @@
     <theme name="button" ref="-defaults" allowWildcard="true">
       <param name="font"><font>18pt-gray</font></param>
       <param name="border"><border>0</border></param>
-      <param name="background"><image>mobile.button.background</image></param>
+      <param name="background"><image>ui-button.*</image></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>
 
@@ -269,7 +269,7 @@
       <param name="border"><border>2,0,0,0</border></param>
       <param name="maxWidth"><int>92</int></param>
       <param name="minWidth"><int>92</int></param>
-      <param name="font"><font>alphabeta-border</font></param>
+      <param name="font"><font>main-border</font></param>
     </theme>
 
     <theme name="label-skill-arrowup" ref="label" allowWildcard="true">

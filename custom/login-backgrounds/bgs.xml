@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+	<!-- NO LOGIN BACKGROUND -->
+	<images file="transparent.png" filter="nearest">
+		<area name="Default Animation" xywh="*"/>
+	</images>
+
+
+	<!-- DEFAULT PHONE WIDESCREEN OPTIONS -->
+    <images file="clouds.png" filter="nearest">
+		<area name="Clouds" xywh="*" inset="-1"/>
+	</images>
+    <images file="doraemon-world.png" filter="nearest">
+		<area name="Doraemon World" xywh="*" inset="-1"/>
+	</images>
+    <images file="eevee.png" filter="nearest">
+		<area name="Eevee" xywh="*" inset="-1"/>
+	</images>
+    <images file="hatsune.png" filter="nearest">
+		<area name="Hatsune" xywh="*" inset="-1"/>
+	</images>
+
+
+	<!-- SQUARE FOLDABLE PHONE OPTIONS -->
+    <images file="clouds-square.png" filter="nearest">
+		<area name="Clouds (Square)" xywh="*" inset="-1"/>
+	</images>
+    <images file="doraemon-world-square.png" filter="nearest">
+		<area name="Doraemon World (Square)" xywh="*" inset="-1"/>
+	</images>
+    <images file="eevee-square.png" filter="nearest">
+		<area name="Eevee (Square)" xywh="*" inset="-1"/>
+	</images>
+    <images file="hatsune-square.png" filter="nearest">
+		<area name="Hatsune (Square)" xywh="*" inset="-1"/>
+	</images>
+
+
+	<theme name="characterselectgui" ref="logingui">
+        <param name="background"><constant>catpp-mob-login-background-constant</constant></param>
+    </theme>
+	<theme name="logingui">
+        <param name="background"><constant>catpp-mob-login-background-constant</constant></param>
+	</theme>
+
+</themes>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<themes>
-	<include filename="./background.xml"/>
-	<include filename="../Catppuccin-Mocha-Mobile/theme.xml"/>
-</themes>
