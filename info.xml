@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Theme Catppuccin Mocha Mobile" version="7.0" description="A Soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/186539-mobile-%F0%9F%93%B1-catppuccin-mocha-mobile/">
+<resource name="Theme Catppuccin Mocha Mobile" version="7.1" description="A Soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/186539-mobile-%F0%9F%93%B1-catppuccin-mocha-mobile/">
     <themes>
-       <theme path="Catppuccin-Mocha-Mobile" name="Catppuccin Mocha Mobile" revision="7" is_mobile="true"/>
-        <!-- <theme path="Bg-Clouds" name="Catppuccin Mocha Mobile Clouds" revision="7" is_mobile="true" sprite_atlas="custom-atlas/main.atlas"/>
-        <theme path="Bg-Eevee" name="Catppuccin Mocha Mobile Eevee" revision="7" is_mobile="true" sprite_atlas="custom-atlas/main.atlas"/>
-        <theme path="Bg-Hatsune" name="Catppuccin Mocha Mobile Hatsune" revision="7" is_mobile="true" sprite_atlas="custom-atlas/main.atlas"/>
-        <theme path="Bg-World" name="Catppuccin Mocha Mobile World" revision="7" is_mobile="true" sprite_atlas="custom-atlas/main.atlas"/> -->
-    </themes>
-    <strings string_revision="1">
-      <string path="Strings/color_es.xml"/>
-      <string path="Strings/color_en.xml"/>
-      <string path="Strings/color_de.xml"/>
-      <string path="Strings/color_fr.xml"/>
-      <string path="Strings/color_it.xml"/>
-      <string path="Strings/color_ja.xml"/>
-      <string path="Strings/color_ko.xml"/>
-      <string path="Strings/color_pl.xml"/>
-      <string path="Strings/color_pt-BR.xml"/>
-      <string path="Strings/color_zh-Hant.xml"/>
-      <string path="Strings/color_zh.xml"/>
-    </strings>
-
-    <!-- CUSTOMIZATION OPTIONS -->
-    <theme_extensions theme_extension_revision="1">
-
-        <!-- LOGIN BACKGROUNDS -->
-        <theme_extension name="Catpp-Mob-Login-Background-Extension" path="custom/login-backgrounds/bgs.xml" is_mobile="true">
+       <theme path="Catppuccin-Mocha-Mobile" name="Catppuccin Mocha Mobile" revision="7" is_mobile="true" sprite_atlas="custom-atlas/main.atlas">
             <constants>
+
+
+                <!-- LOGIN BACKGROUNDS -->
                 <constant name="catpp-mob-login-background-constant" public_name="Catpp-Mob Login Backgrounds" type="IMAGE" default_value="Clouds">
 
                     <!-- NO LOGIN BACKGROUND -->
@@ -45,9 +24,24 @@
                     <whitelist_value>Hatsune (Square)</whitelist_value>
 
                 </constant>
-            </constants>
-        </theme_extension>
 
-    </theme_extensions>
+
+            </constants>
+        </theme>
+    </themes>
+    
+    <strings string_revision="1">
+      <string path="Strings/color_es.xml"/>
+      <string path="Strings/color_en.xml"/>
+      <string path="Strings/color_de.xml"/>
+      <string path="Strings/color_fr.xml"/>
+      <string path="Strings/color_it.xml"/>
+      <string path="Strings/color_ja.xml"/>
+      <string path="Strings/color_ko.xml"/>
+      <string path="Strings/color_pl.xml"/>
+      <string path="Strings/color_pt-BR.xml"/>
+      <string path="Strings/color_zh-Hant.xml"/>
+      <string path="Strings/color_zh.xml"/>
+    </strings>
 
 </resource>

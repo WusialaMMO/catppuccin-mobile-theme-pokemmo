@@ -76,5 +76,8 @@
 	<include filename="notif_a.xml"/>
 	<include filename="../default/drops.xml"/>
 	<include filename="hp.xml"/>
+	
+	<!-- Load customization options -->
+	<include filename="../custom/login-backgrounds/bgs.xml"/>
 
 	</themes>

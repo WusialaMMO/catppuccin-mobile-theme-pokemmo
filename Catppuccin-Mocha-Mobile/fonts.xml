@@ -28,9 +28,9 @@
 
   <fontDef name="med-noshadow-12-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="12"/>
   <fontDef name="med-noshadow-14-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="14"/>
-  <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="16"/>
+  <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="16" markup="true"/>
   <fontDef name="med-noshadow-16-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#cdd6f4" size="16"/>
-  <fontDef name="med-noshadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="18"/>
+  <fontDef name="med-noshadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="18" markup="true"/>
   <fontDef name="med-noshadow-18-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#cdd6f4" size="18"/>
   <fontDef name="med-noshadow-20-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="20"/>
   <fontDef name="med-noshadow-20-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true"
@@ -40,17 +40,16 @@
 
   <fontDef name="med-shadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16"/>
   <fontDef name="med-shadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true"/>
-  <fontDef name="med-shadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22"/>
+  <fontDef name="med-shadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22" markup="true" />
 
   <fontDef name="med-shadow-16-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16"/>
   <fontDef name="med-shadow-18-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true"/>
   <fontDef name="med-shadow-22-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22"/>
 
-
-  <fontDef name="med-noshadow-16-dark-green" ref="med-noshadow-18-white" color="#7ae771"/>
   <fontDef name="med-noshadow-16-blue" ref="med-noshadow-16-white" color="#3498DB"/>
   <fontDef name="med-noshadow-18-blue" ref="med-noshadow-18-white" color="#3498DB"/>
   <fontDef name="med-noshadow-18-green" ref="med-noshadow-18-white" color="#a6e3a1"/>
+  <fontDef name="med-noshadow-18-dark-green" ref="med-noshadow-18-white" color="#56d245"/>
   <fontDef name="med-noshadow-18-darkred" ref="med-noshadow-18-white" color="#f38ba8"/>
   <fontDef name="med-noshadow-18-orange" ref="med-noshadow-18-white" color="#FF9900"/>
   <fontDef name="med-noshadow-22-blue" ref="med-noshadow-22-white" color="#3498DB"/>
