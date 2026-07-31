@@ -176,9 +176,10 @@
 
 	<theme name="tm-button" ref="-defaults" allowWildcard="true">
 		<param name=""><image>mobile.button.50.*</image></param>
+		<param name="background"><image>mobile.tab.*</image></param>
 		<param name="border"><border>0,0,14,0</border></param>
 		<param name="font"><font>med-noshadow-22-white</font></param>
-		<param name="font2"><font>med-noshadow-18-white</font></param>
+		<!-- <param name="font2"><font>med-noshadow-18-white</font></param> -->
 		<param name="minWidth"><int>196</int></param>
 		<param name="maxWidth"><int>196</int></param>
 		<param name="minHeight"><int>65</int></param>
@@ -198,6 +199,7 @@
 	<!-- Item Slot -->
 	<theme name="inventory-button" ref="-defaults" allowWildcard="true">
 		<param name=""><image>mobile.button.50.*</image></param>
+		<param name="background"><image>mobile.tab.*</image></param>
 		<param name="border"><border>0,0,0,0</border></param>
 		<param name="font"><font>normal</font></param>
 		<param name="textAlignment"><enum type="alignment">LEFT</enum></param>

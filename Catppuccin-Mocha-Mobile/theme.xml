@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <themes>
+
+	<include filename="../default/custom-constants.xml"/>
+	<include filename="../custom/shiny-windows/shiny-windows.xml"/>
+
 	<!-- Colors and stuff -->
 	<constantDef name="main-theme-color"><color>#1e1e2e</color></constantDef>
 	<!-- Overrides Button hover and inputbox select -->
-	<constantDef name="main-color"><color>#b4befe</color></constantDef>
-	<constantDef name="sub-color"><color>#b4befe</color></constantDef>
+	<constantDef name="main-color"><constant>catpp-pc-accent-color</constant></constantDef>
+	<constantDef name="sub-color"><constant>catpp-pc-accent-color</constant></constantDef>
 	<constantDef name="tooltip-tint"><color>#cdd6f4</color></constantDef>
+
+	<constantDef name="catpp-pc-bag-height-constant"><int>567</int></constantDef>
 
 	<!-- Include Main Theme -->
 	<include filename="fonts.xml"/>
@@ -69,11 +75,11 @@
 	<include filename="ui/android-link.xml"/>
     <include filename="ui/android-instance.xml"/>
   	<include filename="ui/android-tt.xml"/>
+	<include filename="../custom/counters/counters.xml"/>
 	<include filename="ui/android-encounter.xml"/>
   	<include filename="ui/android-incubator.xml"/>
 
 	<include filename="notif.xml"/>
-	<include filename="notif_a.xml"/>
 	<include filename="../default/drops.xml"/>
 	<include filename="hp.xml"/>
 	

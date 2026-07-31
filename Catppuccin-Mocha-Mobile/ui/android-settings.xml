@@ -91,7 +91,7 @@
 	</theme>
 	
 	<theme name="settings-collapsiblemenu" ref="collapsiblemenu">
-	  <param name="background"><image>none</image></param>
+	  <param name="background"><image>ui-inner-frame-floating.background</image></param>
 	  <theme name="label" ref="label">
 	    <param name="font"><font>med-noshadow-18-white</font></param>
     </theme>

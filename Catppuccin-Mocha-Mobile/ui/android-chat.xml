@@ -16,7 +16,7 @@
 						<param name="color1"><font>chatfont</font></param>
 						<param name="color2"><font>chatfont</font></param>
 						<param name="link"><font>chatfont-blue</font></param>
-						<param name="normal"><font>chatfont</font></param>
+						<param name="normal"><font>chatfont-normal</font></param>
 						<param name="shout"><font>chatfont-orange</font></param>
 						<param name="whisper"><font>chatfont-lightgreen</font></param>
 						<param name="trade"><font>chatfont-purple</font></param>
@@ -208,7 +208,7 @@
 					<param name="alignment"><enum type="alignment">FILL</enum></param>
 					<param name="border"><border>0,0,0,0</border></param>
 					<theme name="tabbutton" ref="button">
-						<param name="font"><font>med-noshadow-18-white</font></param>
+						<param name="font"><font>med-noshadow-18-white-custom</font></param>
 						<param name="minWidth"><int>180</int></param>
 						<param name="minHeight"><int>50</int></param>
 						<param name=""><image>mobile.tab.*</image></param>

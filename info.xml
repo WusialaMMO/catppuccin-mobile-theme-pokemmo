@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resource name="Theme Catppuccin Mocha Mobile" version="7.1" description="A Soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/186539-mobile-%F0%9F%93%B1-catppuccin-mocha-mobile/">
+<resource name="Theme Catppuccin Mocha Mobile" version="8.0" description="A Soothing pastel theme" author="Wusiala" weblink="https://forums.pokemmo.com/index.php?/topic/186539-mobile-%F0%9F%93%B1-catppuccin-mocha-mobile/">
     <themes>
-       <theme path="Catppuccin-Mocha-Mobile" name="Catppuccin Mocha Mobile" revision="7" is_mobile="true" sprite_atlas="custom-atlas/main.atlas">
+       <theme path="Catppuccin-Mocha-Mobile" name="Catppuccin Mocha Mobile" revision="8" is_mobile="true" sprite_atlas="custom-atlas/main.atlas">
             <constants>
+
+                <!-- ACCENT COLORS -->
+                <constant name="catpp-pc-accent-color" public_name="Catppuccin Mocha Options Start&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;Accent Color&#10;" type="CONSTANT" default_value="Lavender Color">
+                    <whitelist_value>Lavender Color</whitelist_value>
+                    <whitelist_value>Rosewater Color</whitelist_value>
+                    <whitelist_value>Flamingo Color</whitelist_value>
+                    <whitelist_value>Pink Color</whitelist_value>
+                    <whitelist_value>Mauve Color</whitelist_value>
+                    <whitelist_value>Red Color</whitelist_value>
+                    <whitelist_value>Maroon Color</whitelist_value>
+                    <whitelist_value>Peach Color</whitelist_value>
+                    <whitelist_value>Yellow Color</whitelist_value>
+                    <whitelist_value>Green Color</whitelist_value>
+                    <whitelist_value>Teal Color</whitelist_value>
+                    <whitelist_value>Sky Color</whitelist_value>
+                    <whitelist_value>Sapphire Color</whitelist_value>
+                    <whitelist_value>Blue Color</whitelist_value>
+                </constant>
 
 
                 <!-- LOGIN BACKGROUNDS -->
-                <constant name="catpp-mob-login-background-constant" public_name="Catpp-Mob Login Backgrounds" type="IMAGE" default_value="Clouds">
+                <constant name="catpp-mob-login-background-constant" public_name="Login Background" type="IMAGE" default_value="Clouds">
 
                     <!-- NO LOGIN BACKGROUND -->
                     <whitelist_value>Default Animation</whitelist_value>
@@ -24,6 +42,81 @@
                     <whitelist_value>Hatsune (Square)</whitelist_value>
 
                 </constant>
+
+                <!-- ENC COUNTER MINIMIZED -->
+                <constant name="catpp-mob-enc-min-constant" public_name="Enc Counter Minimized" type="IMAGE" default_value="Dark Sky Min">
+                    <whitelist_value>Dark Sky Min</whitelist_value>
+                    <whitelist_value>Pink Clouds Min</whitelist_value>
+                    <whitelist_value>Beach Min</whitelist_value>
+                    <whitelist_value>Flowers Min</whitelist_value>
+                    <whitelist_value>Simple Rainbox Border Min</whitelist_value>
+                    <whitelist_value>Simple Rainbox Min</whitelist_value>
+                    <whitelist_value>Simple Dark Min</whitelist_value>
+                    <whitelist_value>Simple Accent Color Min</whitelist_value>
+                </constant>
+
+
+                <!-- ENC COUNTER MAXIMIZED -->
+                <constant name="catpp-mob-enc-max-constant" public_name="Enc Counter Maximized" type="IMAGE" default_value="Dark Sky Max">
+                    <whitelist_value>Dark Sky Max</whitelist_value>
+                    <whitelist_value>Pink Clouds Max</whitelist_value>
+                    <whitelist_value>Beach Max</whitelist_value>
+                    <whitelist_value>Flowers Max</whitelist_value>
+                    <whitelist_value>Simple Rainbow Border Max</whitelist_value>
+                    <whitelist_value>Simple Rainbow Max</whitelist_value>
+                    <whitelist_value>Simple Dark Max</whitelist_value>
+                    <whitelist_value>Simple Accent Color Max</whitelist_value>
+                </constant>
+
+
+                <!-- ENC COUNTER FONT COLOR -->
+                <constant name="catpp-mob-enc-font-color-constant" public_name="Enc Counter Font Color" type="CONSTANT" default_value="White Color">
+                    <whitelist_value>White Color</whitelist_value>
+                    <whitelist_value>Black Color</whitelist_value>
+                </constant>
+                
+
+                <!-- SHINY CAUGHT BACKGROUND -->
+                <constant name="catpp-pc-shiny-caught-background-constant" public_name="Shiny Caught Background" type="IMAGE" default_value="Stars in the Sky">
+
+                    <whitelist_value>Stars in the Sky</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower Field (Bright)</whitelist_value>
+                    <whitelist_value>Purple Sky</whitelist_value>
+                    <whitelist_value>Gray Clouds</whitelist_value>
+                    <whitelist_value>Old Default</whitelist_value>
+
+                </constant>
+
+
+                <!-- NOTIFICATION BACKGROUND -->
+                <constant name="catpp-pc-notif-background" public_name="Notification Background" type="IMAGE" default_value="Show Notif Background">
+
+                    <whitelist_value>Show Notif Background</whitelist_value>
+                    <whitelist_value>Hide Notif Background</whitelist_value>
+                   
+                </constant>
+
+                <!-- NOTIFICATION FONT -->
+                <constant name="catpp-pc-notif-font" public_name="&#10;Notification Font&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;⚠ WARNING: HIDING THE&#10;NOTIFICATIONS WILL ALSO&#10;HIDE SOME IMPORTANT NOTIFS ⚠&#10;" type="FONT" default_value="Default White Notif Font">
+
+                    <whitelist_value>Default White Notif Font</whitelist_value>
+                    <whitelist_value>Accent Color Notif Font</whitelist_value>
+                    <whitelist_value>Hide Notif Font</whitelist_value>
+                   
+                </constant>
+
+
+                <!-- CHAT COLORS -->
+                <constant name="catpp-pc-chat-team-color"			public_name="Chat Color: Team"	    type="COLOR" default_value="#ff8484"/>
+                <constant name="catpp-pc-chat-link-color"			public_name="Chat Color: Link and System"	    type="COLOR" default_value="#00e6b8"/>
+                <constant name="catpp-pc-chat-whisper-color"		public_name="Chat Color: Whisper"	type="COLOR" default_value="#a6e3a1"/>
+                <constant name="catpp-pc-chat-battle-color"			public_name="Chat Color: Battle"	type="COLOR" default_value="#f4fc9a"/>
+                <constant name="catpp-pc-chat-trade-color"			public_name="Chat Color: Trade"	    type="COLOR" default_value="#FF99FF"/>
+                <constant name="catpp-pc-chat-global-color"			public_name="Chat Color: Global"	type="COLOR" default_value="#94e2d5"/>
+                <constant name="catpp-pc-chat-channel-color"		public_name="Chat Color: Channel"	type="COLOR" default_value="#f0cf81"/>
+                <constant name="catpp-pc-chat-normal-color"		    public_name="Chat Color: Normal"    type="COLOR" default_value="#cdd6f4"/>
+                <constant name="catpp-pc-chat-shout-color"			public_name="Chat Color: Shout&#10;╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍&#10;Catppuccin Mocha Options End"	    type="COLOR" default_value="#FF9900"/>
 
 
             </constants>

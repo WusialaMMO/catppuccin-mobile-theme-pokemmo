@@ -5,7 +5,7 @@
 
 	<fontDef name="battle" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#1e1e2e" border_width="1" border_color="#1e1e2e" size="38" markup="true" />
   <fontDef name="battle-small" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" markup="true" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="48" hinting="Full"/>
-  <fontDef name="battle-shiny" filename="../default/res/fonts/battle.ttf" color="#cdd6f4" markup="true" shadow_offset_x="1" shadow_offset_y="1" shadow_color="#CC000000" size="48" hinting="Full"/>
+  <fontDef name="battle-shiny" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" color="#FFFFFF" markup="true" border_width="1" border_color="#000000" size="24" hinting="Full"/>
 	<fontDef name="braille" ref="battle" color="#000000"/>
 
   <fontDef name="mechabold-large" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" color="#cdd6f4" hinting="Slight" kerning="false" size="22" border_width="1" border_color="#2f2f2f" markup="true"/>
@@ -31,16 +31,32 @@
   <fontDef name="med-noshadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="16" markup="true"/>
   <fontDef name="med-noshadow-16-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#cdd6f4" size="16"/>
   <fontDef name="med-noshadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="18" markup="true"/>
+  <fontDef name="med-noshadow-18-white-custom" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="18" markup="true">
+    <fontParam if="disabled|active|selected" color="#000000"/>
+  </fontDef>
   <fontDef name="med-noshadow-18-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true" faces="sc,tc,jp" font_color="#cdd6f4" size="18"/>
   <fontDef name="med-noshadow-20-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="20"/>
   <fontDef name="med-noshadow-20-white-markup" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" markup="true"
            faces="sc,tc,jp" font_color="#cdd6f4" size="20"/>
   <fontDef name="med-noshadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="22"/>
+  <fontDef name="med-noshadow-22-white-custom" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="22">
+    <fontParam if="selected|keyboardFocus" color="#000000"/>
+  </fontDef>
   <fontDef name="med-noshadow-22-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" size="22"/>
+  <fontDef name="mob-enc-font" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="catpp-mob-enc-font-color-constant" size="22"/>
 
   <fontDef name="med-shadow-16-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16"/>
+  <fontDef name="med-shadow-16-white-custom" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16">
+    <fontParam if="selected|keyboardFocus" color="#000000"/>
+  </fontDef>
   <fontDef name="med-shadow-18-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true"/>
   <fontDef name="med-shadow-22-white" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22" markup="true" />
+  <fontDef name="med-shadow-22-white-custom" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="22" markup="true" >
+    <fontParam if="selected|keyboardFocus" color="#000000"/>
+  </fontDef>
+  <fontDef name="med-shadow-22-white-menuhud" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#cdd6f4" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="22" markup="true" >
+    <fontParam if="hover|keyboardFocus" color="catpp-pc-accent-color"/>
+  </fontDef>
 
   <fontDef name="med-shadow-16-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="16"/>
   <fontDef name="med-shadow-18-white-orig" filename="../default/res/fonts/NotoSansCJK-Bold.ttc" faces="sc,tc,jp" font_color="#FFFFFF" shadow_color="#A0000000" shadow_offset_x="2" shadow_offset_y="2" size="18" default="true"/>
@@ -93,6 +109,9 @@
   <fontDef name="22pt-gray" ref="med-noshadow-22-white" color="#FFFFFF"/>
 
 	<fontDef name="normal" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="16"/>
+	<fontDef name="normal-custom" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#cdd6f4" size="16">
+    <fontParam if="active|selected|keyboardFocus" color="#000000"/>
+  </fontDef>
 	<fontDef name="xlarge" filename="../default/res/fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" font_color="#E6EAF9" size="22"/>
 
 
@@ -103,22 +122,23 @@
 		<fontParam if="disabled" color="#A9A9A9"/>
 		<fontParam if="pressed" offsetX="1" offsetY="1"/>
 	</fontDef>
+	<fontDef name="chatfont-normal" ref="chatfont" color="catpp-pc-chat-normal-color"/>
 	<fontDef name="chatfont-gray" ref="chatfont" color="#484848"/>
 	<fontDef name="chatfont-black" ref="chatfont" color="black"/>
 	<fontDef name="chatfont-green" ref="chatfont" color="#ccf5a3"/>
-	<fontDef name="chatfont-blue" ref="chatfont" color="#AACFFF"/>
+	<fontDef name="chatfont-blue" ref="chatfont" color="catpp-pc-chat-link-color"/>
 	<fontDef name="chatfont-orange-shadow" ref="chatfont" color="#FF9900"/>
   <!-- Shiny color remains default-->
   <fontDef name="chatfont-battle" ref="chatfont" color="#FFFF00"/>
   <!-- Battle color -->
-  <fontDef name="chatfont-catppuccin-yellow2" ref="chatfont" color="#f4fc9a"/>
-	<fontDef name="chatfont-orange" ref="chatfont" color="#FF9900"/>
-	<fontDef name="chatfont-lightgreen" ref="chatfont" color="#a6e3a1"/>
-	<fontDef name="chatfont-purple" ref="chatfont" color="#FF99FF"/>
-	<fontDef name="chatfont-teal" ref="chatfont" color="#94e2d5"/>
+  <fontDef name="chatfont-catppuccin-yellow2" ref="chatfont" color="catpp-pc-chat-battle-color"/>
+	<fontDef name="chatfont-orange" ref="chatfont" color="catpp-pc-chat-shout-color"/>
+	<fontDef name="chatfont-lightgreen" ref="chatfont" color="catpp-pc-chat-whisper-color"/>
+	<fontDef name="chatfont-purple" ref="chatfont" color="catpp-pc-chat-trade-color"/>
+	<fontDef name="chatfont-teal" ref="chatfont" color="catpp-pc-chat-global-color"/>
 	<fontDef name="chatfont-red" ref="chatfont" color="#f09999"/>
-	<fontDef name="chatfont-yellow" ref="chatfont" color="#e2c57e"/>
-	<fontDef name="chatfont-brown" ref="chatfont" color="#ff8484"/>
+	<fontDef name="chatfont-yellow" ref="chatfont" color="catpp-pc-chat-channel-color"/>
+	<fontDef name="chatfont-brown" ref="chatfont" color="catpp-pc-chat-team-color"/>
 	<fontDef name="chatfont-gm" ref="chatfont" color="#5e98ff"/>
 	<fontDef name="chatfont-cm" ref="chatfont" color="#58ff64"/>
 	<fontDef name="chatfont-hgm" ref="chatfont" color="#ff5858"/>

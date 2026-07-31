@@ -185,7 +185,7 @@
 	<theme name="mobile-pager" ref="pager">
 		<theme name="button" ref="button">
 		<param name=""><image>mobile.button.flat.*</image></param>
-			<param name="font"><font>med-noshadow-18-white</font></param>
+			<param name="font"><font>med-noshadow-18-white-custom</font></param>
 			<param name="border"><border>0,0</border></param>
 			<param name="minHeight"><int>60</int></param>
 			<param name="minWidth"><int>65</int></param>
@@ -480,7 +480,7 @@
 					<param name="namedGaps"><map/></param>
 					<param name="border"><border>0,0,0,0</border></param>
 					<theme name="hud-item-button" ref="-defaults" allowWildcard="true">
-						<param name="font"><font>med-shadow-22-white</font></param>
+						<param name="font"><font>med-shadow-22-white-menuhud</font></param>
 						<param name="background"><image>label2.background</image></param>
 						<param name="border"><border>0,60,0,0</border></param>
 						<param name="textAlignment"><enum type="alignment">LEFT</enum></param>
@@ -671,6 +671,10 @@
       </map>
     </param>
   </theme>
+  
+	<theme name="menupopupbattle" ref="menupopup" overwrite="true">
+		<param name="border"><border>5</border></param>
+	</theme>
 
 	<theme name="mobile-menu" ref="button" allowWildcard="true">
 		<param name="background"><image>mobile.icons.menu</image></param>
@@ -734,9 +738,6 @@
 
 	<!-- login ui -->
 	<theme name="logingui">
-	<!-- Load custom background -->
-	<!-- <param name="background"><image>login-background</image></param> -->
-	
 		<theme name="login-window" allowWildcard="true">
 			<theme name="title" ref="-defaults">
 				<param name="textAlignment"><enum type="alignment">CENTER</enum></param>

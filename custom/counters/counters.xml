@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+  <images file="dark-sky.png" filter="nearest">
+    <area name="Dark Sky Min" xywh="*"/>
+  </images>
+  <images file="dark-sky-expanded.png" filter="nearest">
+    <area name="Dark Sky Max" xywh="*"/>
+  </images>
+
+  <images file="pink-clouds.png" filter="nearest">
+    <area name="Pink Clouds Min" xywh="*"/>
+  </images>
+  <images file="pink-clouds-expanded.png" filter="nearest">
+    <area name="Pink Clouds Max" xywh="*"/>
+  </images>
+
+  <images file="beach.png" filter="nearest">
+    <area name="Beach Min" xywh="*"/>
+  </images>
+  <images file="beach-expanded.png" filter="nearest">
+    <area name="Beach Max" xywh="*"/>
+  </images>
+
+  <images file="flowers.png" filter="nearest">
+    <area name="Flowers Min" xywh="*"/>
+  </images>
+  <images file="flowers-expanded.png" filter="nearest">
+    <area name="Flowers Max" xywh="*"/>
+  </images>
+
+  <images file="rainbow-border.png" filter="nearest">
+    <area name="Simple Rainbox Border Min" xywh="*"/>
+  </images>
+  <images file="rainbow-border-expanded.png" filter="nearest">
+    <area name="Simple Rainbow Border Max" xywh="*"/>
+  </images>
+
+  <images file="rainbow.png" filter="nearest">
+    <area name="Simple Rainbox Min" xywh="*"/>
+  </images>
+  <images file="rainbow-expanded.png" filter="nearest">
+    <area name="Simple Rainbow Max" xywh="*"/>
+  </images>
+
+  <images file="dark.png" filter="nearest">
+    <area name="Simple Dark Min" xywh="*"/>
+  </images>
+  <images file="dark-expanded.png" filter="nearest">
+    <area name="Simple Dark Max" xywh="*"/>
+  </images>
+
+  <images file="accent-color.png" filter="nearest">
+    <area name="Simple Accent Color Min" xywh="*" tint="catpp-pc-accent-color"/>
+  </images>
+  <images file="accent-color-expanded.png" filter="nearest">
+    <area name="Simple Accent Color Max" xywh="*" tint="catpp-pc-accent-color"/>
+  </images>
+
+</themes>

@@ -238,6 +238,16 @@
           </param>
         </theme>
       </theme>
+	<theme name="monster-slot" ref="-defaults">
+      <param name="background"><image>mobile.circle.white</image></param>
+      <param name="font"><font>med-noshadow-18-white</font></param>
+
+      <theme name="label-dark" ref="label" allowWildcard="true">
+        <param name="font"><font>med-shadow-18-white</font></param>
+        <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
+		</theme>
+	</theme>
+
       <theme name="scrollpane" ref="scrollpane">
         <theme name="editfield" ref="editfield" overwrite="true">
           <param name="minWidth">

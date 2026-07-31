@@ -12,6 +12,7 @@
 		<!-- <area name="mobile.circle.red" xywh="551,318,100,100"/> -->
     <!-- <area name="mobile.bigcircle.selected" xywh="643,425,136,136" center="true" tint="#B000D0FF"/> -->
 		<!-- <area name="mobile.bigcircle.white" xywh="643,425,136,136" inset="0,0,0,0" center="true" sizeOverwriteH="136" sizeOverwriteV="136" tint="#80FFFFFF"/> -->
+		<area name="mobile.rbox.light1-custom" xywh="774,23,31,31" splitx="L6,R6" splity="T6,B6"/>
 
 	</images>
 	<images file="res/ui-mobile-atlas.png" filter="nearest">
@@ -113,9 +114,9 @@
     </composed>
 
 		<select name="mobile.button.flat.background">
-			<alias ref="mobile.box.light1" if="selected | keyboardFocus" tint="#80FFFFFF"/>
-			<alias ref="mobile.box.light1" if="disabled" tint="#45475a"/>
-			<alias ref="mobile.box.dark2" tint="#80FFFFFF"/>
+			<alias ref="mobile.rbox.light1-custom" if="selected | keyboardFocus" tint="Crust Color"/>
+			<alias ref="mobile.rbox.light1-custom" if="disabled" tint="catpp-pc-accent-color"/>
+			<alias ref="mobile.rbox.light1-custom" tint="Base Color"/>
 		</select>
 
 
@@ -143,17 +144,17 @@
 
 		<select name="mobile.battle.switch.button.background">
 			<composed if="disabled + (targeted | keyboardFocus)">
-				<alias ref="mobile.rbox.dark3.50"/>
-				<alias ref="mobile.rbox.light1" tint="#40FFFFFF"/>
+				<!-- <alias ref="mobile.rbox.dark3.50"/> -->
+				<alias ref="mobile.rbox.light1-custom" tint="#f38ba8"/>
 			</composed>
 			<composed if="keyboardFocus">
-				<alias ref="mobile.rbox.light1"/>
+				<alias ref="mobile.rbox.light1-custom" tint="#89b4fa"/>
 			</composed>
 			<alias ref="mobile.rbox.dark3.50" if="disabled"/>
 			<composed if="targeted | selected">
-				<alias ref="mobile.rbox.light1"/>
+				<alias ref="mobile.rbox.light1-custom" tint="#EE89b4fa"/>
 			</composed>
-			<alias ref="mobile.rbox.light1" tint="#80FFFFFF"/>
+			<alias ref="mobile.rbox.light1-custom" tint="#1e1e2e"/>
 		</select>
 
 		<select name="mobile.battle.switch-enemy.button.background">
@@ -181,7 +182,7 @@
 		</select>
 		-->
 
-		<area name="mobile.tab.button" xywh="418,223,-201,4"/>
+		<area name="mobile.tab.button" xywh="418,223,-201,4" tint="catpp-pc-accent-color"/>
 
 		<area name="mobile.battle.buttonr" xywh="684,643,340,143"/>
 		<area name="mobile.battle.buttonl" xywh="684,643,-340,143"/>
@@ -247,7 +248,7 @@
 
 		<select name="mobile.tab.inset.background">
 			<alias ref="mobile.tab.button" if="active | selected" inset="0,-10,0,0"/>
-			<alias ref="mobile.box.dark3.50" inset="0,-10,0,0"/>
+			<alias ref="label2.background" inset="0,-10,0,0"/>
 		</select>
 
 		<select name="mobile.button.background">
@@ -259,7 +260,7 @@
 
 		<select name="mobile.button.50.background">
 			<alias ref="mobile.tab.button" if="active | selected | keyboardFocus"/>
-			<alias ref="mobile.box.dark2.50"/>
+			<alias ref="label2.background"/>
 		</select>
 
 		<select name="mobile.button.dark3.50.background">
@@ -496,15 +497,15 @@
 			<area xywh="38,219,152,37" sizeOverwriteV="60"/>
 		</grid>
 
-		<area name="mobile.monster.tab1.default" xywh="354,27,20,20"/>
-		<area name="mobile.monster.tab2.default" xywh="380,27,20,20"/>
-		<area name="mobile.monster.tab3.default" xywh="407,27,20,20"/>
-		<area name="mobile.monster.tab4.default" xywh="434,27,20,20"/>
-		<area name="mobile.monster.tab5.default" xywh="463,27,20,20"/>
-		<area name="mobile.monster.tab6.default" xywh="488,27,20,20"/>
-		<area name="mobile.monster.tab7.default" xywh="507,27,20,20"/>
-		<area name="mobile.monster.tab8.default" xywh="529,27,20,20"/>
-		<area name="mobile.monster.tab9.default" xywh="550,27,20,20"/>
+		<area name="mobile.monster.tab1.default" xywh="354,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab2.default" xywh="380,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab3.default" xywh="407,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab4.default" xywh="434,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab5.default" xywh="463,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab6.default" xywh="488,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab7.default" xywh="507,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab8.default" xywh="529,27,20,20" tint="catpp-pc-accent-color"/>
+		<area name="mobile.monster.tab9.default" xywh="550,27,20,20" tint="catpp-pc-accent-color"/>
 
 
 		<animation name="mobile.tab.animation" timeSource="selected" count="1">
@@ -1059,14 +1060,14 @@
 		<area name="pcslot.bg.default" xywh="3,1,80,80"/>
 		<area name="pcslot.bg.active" xywh="86,1,80,80"/>
 		<area name="pcslot.inner.default" xywh="3,83,80,80"/>
-		<area name="pcslot.inner.active" xywh="86,83,80,80"/>
+		<area name="pcslot.inner.active" xywh="86,83,80,80" tint="catpp-pc-accent-color"/>
 		<area name="pcslot.inner.filtered" xywh="169,83,80,80"/>
 		<area name="pcslot.bg.overlay.default" xywh="86,164,80,80"/>
 		<area name="pcslot.bg.overlay.disabled" xywh="3,164,80,80"/>
 		<area name="pcslot.bg.overlay.battlebox" xywh="169,164,80,80"/>
 		<area name="pcslot.border.default" xywh="3,247,80,80"/>
-		<area name="pcslot.border.selected" xywh="86,247,80,80"/>
-		<area name="pcslot.border.selected2" xywh="86,247,80,80" inset="-1" />
+		<area name="pcslot.border.selected" xywh="86,247,80,80" tint="catpp-pc-accent-color"/>
+		<area name="pcslot.border.selected2" xywh="86,247,80,80" inset="-1"  tint="catpp-pc-accent-color"/>
 		<area name="pcslot.border.filtered" xywh="169,247,80,80"/>
     <area name="pcslot.border.filtered2" xywh="169,247,80,80" inset="-1"/>
 		<composed name="pc-slot.background">
