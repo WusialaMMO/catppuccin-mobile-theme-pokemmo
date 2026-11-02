@@ -14,6 +14,7 @@
 
 	<!-- Include Main Theme -->
 	<include filename="fonts.xml"/>
+	<include filename="hud-fonts.xml"/>
 	<!-- Must be included after all fonts are loaded -->
 	<fontGen/>
 	
@@ -21,6 +22,8 @@
 	<include filename="gfx.xml"/>
 	<include filename="gfx_ui.xml"/>
 	<include filename="init.xml"/>
+	<include filename="hud_kit"/>
+	<include filename="hud/hud-widgets.xml"/>
 	
 	<!-- Including rest of the GUI -->
 	<include filename="ui/main.xml"/>
@@ -40,7 +43,6 @@
 	<include filename="ui/tt.xml"/>
 	<include filename="ui/trade.xml"/>
 	<include filename="ui/shop.xml"/>
-	<include filename="ui/link.xml"/>
 	<include filename="ui/misc.xml"/>
 	<include filename="ui/advanced-search.xml"/>
 	<include filename="ui/broker.xml"/>
@@ -57,8 +59,8 @@
 	<!-- Load customization options -->
 	<include filename="../custom/login-backgrounds/bgs.xml"/>
 	<include filename="../custom/summaries/summaries.xml"/>
-	<include filename="../custom/counters/counter-minimized.xml"/>
-	<include filename="../custom/counters/counter-maximized.xml"/>
+	<!-- <include filename="../custom/counters/counter-minimized.xml"/>
+	<include filename="../custom/counters/counter-maximized.xml"/> -->
 	<include filename="../custom/battle-hud/battle-hud.xml"/>
 
 </themes>
